@@ -1,7 +1,7 @@
 alias javaVersions="/usr/libexec/java_home -V"
 
 function switchJavaVersion() {
-    echo 'Switchting to version' $1
+    echo 'Switching to version' $1
     export JAVA_HOME=`/usr/libexec/java_home -v $1`
 }
 
